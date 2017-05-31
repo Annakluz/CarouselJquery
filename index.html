@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Carousel con JS</title>
-	<link rel="stylesheet" href="assets/css/main.css">
+    <meta charset="UTF-8">
+    <title>Carousel con JS</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
 </head>
+
 <body>
-	<div class="carousel">
-		<div data-slide="0" class="carousel-content active">
-			<img src="" alt="Imagen 1">
-		</div>
-		<div data-slide="1" class="carousel-content ">
-			<img src="" alt="Imagen 2">
-		</div>
-		<div data-slide="2" class="carousel-content ">
-			<img src="" alt="Imagen 3">
-		</div>
-		<div data-slide="3" class="carousel-content">
-			<img src="" alt="Imagen 4">
-		</div>
-	</div>
-	<div class="controls">
-		<a href="#" class="previous">&#60;</a>
-		<button type="button" data-target="0" class="control"></button>
-		<button type="button" data-target="1" class="control"></button>
-		<button type="button" data-target="2" class="control"></button>
-		<button type="button" data-target="3" class="control"></button>
-		<a href="#" class="next">&#62;</a>
-	</div>
-	<script src="assets/js/jquery-3.2.1.min.js"></script>
-	<script src="assets/js/main.js"></script>
+    <section class="container-car">
+        <div class="carousel">
+            <div data-slide="0" class="carousel-content active">
+                <img src="assets/img/astronaut-1664814_640.jpg" alt="Imagen 1">
+            </div>
+            <div data-slide="1" class="carousel-content ">
+                <img src="assets/img/solar-system-11188_640.jpg" alt="Imagen 2">
+            </div>
+            <div data-slide="2" class="carousel-content ">
+                <img src="assets/img/centaurus-a-11190_640.jpg" alt="Imagen 3">
+            </div>
+            <div data-slide="3" class="carousel-content">
+                <img src="assets/img/moon-2312067_640.jpg" alt="Imagen 4">
+            </div>
+        </div>
+        <div class="controls">
+           <div>
+            <a href="#" class="previous">&#60;</a>
+            <button type="button" data-target="0" class="control waves-effect">1</button>
+            <button type="button" data-target="1" class="control waves-effect">2</button>
+            <button type="button" data-target="2" class="control waves-effect">3</button>
+            <button type="button" data-target="3" class="control waves-effect">4</button>
+            <a href="#" class="next">&#62;</a>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

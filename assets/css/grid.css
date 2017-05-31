@@ -1,0 +1,20 @@
+.container-car{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh auto;
+}
+
+.carousel{
+    display: inline-grid;
+    grid-row-start: 2;
+    height: 60vh;
+    justify-content: center;
+    
+}
+
+.controls{
+    display: inline-grid;
+    grid-template-rows: 10vh;
+    grid-row-start: 3;
+    justify-items: center;
+}
